@@ -1,0 +1,10 @@
+RestClients:
+  #Jira Cloud platform REST API documentation
+  jira (The Jira Cloud platform REST API):
+    UUID: 639f7d97-ee60-4cc3-9645-8d67427eb1f0
+    Url: https://jira.axonivy.com/jira
+    Features:
+    - ch.ivyteam.ivy.rest.client.mapper.JsonFeature
+    - com.atlassian.jira.DynamicApiVersion
+    Properties:
+      API.version: '2'
